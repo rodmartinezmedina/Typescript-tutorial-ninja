@@ -21,3 +21,5 @@ console.log(ninja);
 
 ninja = { name: 25, age: "yoshi" };
 console.log(ninja);
+
+console.log("test");
