@@ -29,5 +29,17 @@ form.addEventListener("submit", (e) => {
         return Object.assign(Object.assign({}, obj), { uid });
     };
     let docOne = addUID({ name: "yoshi", age: 40 });
-    console.log(docOne);
+    // let docTwo = addUID("hello");
+    console.log(docOne.age);
+    const docThree = {
+        uid: 1,
+        resourceName: "person",
+        data: { name: "shaun" },
+    };
+    const docFour = {
+        uid: 2,
+        resourceName: "shoppingList",
+        data: ["bread", "milk", "toilet roll"],
+    };
+    console.log(docThree, docFour);
 });
